@@ -7,7 +7,7 @@
     </head>
     <body>
         <div style="padding: 5px; background-color: green;">
-        <input type="button" id="boton" value="Saludar" onclick="alert('Hola!')">
+        <input type="button" id="boton" value="Saludar" onclick="alert('Hola!'); event.stopPropagation();">
         </div>
     </body>
 </html>
